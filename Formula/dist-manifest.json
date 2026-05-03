@@ -79,7 +79,7 @@
       ],
       "checksum": "moove-aarch64-apple-darwin.tar.gz.sha256",
       "checksums": {
-        "sha256": "446b9c6dc3d33e85fc31acbf5089b16b3792a62dea1a05a2dc515e301f3eab29"
+        "sha256": "2d170ec88a635fff3a502197bdedb846a9badceed9a8a147809265f41b523d48"
       }
     },
     "moove-aarch64-apple-darwin.tar.gz.sha256": {
@@ -120,7 +120,7 @@
       ],
       "checksum": "moove-aarch64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "af7a48ac35873f79940d64d48e85ff410859356b49726ea5dcc26e48d8c33d44"
+        "sha256": "067523a81b5cbe5c818acc4e57687319a714bf12a495398e26a3a601b9a4306d"
       }
     },
     "moove-aarch64-unknown-linux-musl.tar.gz.sha256": {
@@ -161,7 +161,7 @@
       ],
       "checksum": "moove-x86_64-pc-windows-msvc.zip.sha256",
       "checksums": {
-        "sha256": "7f0497b7d0502bd2d1d0911d351cd5ead319c951e16bd6e90ea732a15eaaacee"
+        "sha256": "57b8f577bc565174c44072d117d18dc161a09902250d83d3b476788e39bf0197"
       }
     },
     "moove-x86_64-pc-windows-msvc.zip.sha256": {
@@ -202,7 +202,7 @@
       ],
       "checksum": "moove-x86_64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "b793be5536c745e198f3d8df106a5ec09f1b3558c2ff0771f3e841d6b9b7e87f"
+        "sha256": "cb5a8372671354807e3598b5279dd6b4d54e7d890faaa60ec6716711c3780c0d"
       }
     },
     "moove-x86_64-unknown-linux-musl.tar.gz.sha256": {
@@ -237,7 +237,7 @@
       "kind": "source-tarball",
       "checksum": "source.tar.gz.sha256",
       "checksums": {
-        "sha256": "0e10dc54bd7437453ba63be911e316e2b9f8ad061af23f6020472f9e58dc6c12"
+        "sha256": "d3286319db6363a4c2592290a2db33aabac3b9a1b43730dc580ff947d1b500f0"
       }
     },
     "source.tar.gz.sha256": {
@@ -281,7 +281,7 @@
     },
     "build:local:x86_64-pc-windows-msvc": {
       "id": "build:local:x86_64-pc-windows-msvc",
-      "cargo_version_line": "cargo 1.94.1 (29ea6fb6a 2026-03-24)",
+      "cargo_version_line": "cargo 1.95.0 (f2d3ce0bd 2026-03-21)",
       "build_environment": "windows"
     },
     "build:local:x86_64-unknown-linux-musl": {

@@ -155,7 +155,7 @@
       ],
       "checksum": "moove-x86_64-pc-windows-msvc.zip.sha256",
       "checksums": {
-        "sha256": "7f0497b7d0502bd2d1d0911d351cd5ead319c951e16bd6e90ea732a15eaaacee"
+        "sha256": "57b8f577bc565174c44072d117d18dc161a09902250d83d3b476788e39bf0197"
       }
     },
     "moove-x86_64-pc-windows-msvc.zip.sha256": {
@@ -236,7 +236,7 @@
   "systems": {
     "build:local:x86_64-pc-windows-msvc": {
       "id": "build:local:x86_64-pc-windows-msvc",
-      "cargo_version_line": "cargo 1.94.1 (29ea6fb6a 2026-03-24)",
+      "cargo_version_line": "cargo 1.95.0 (f2d3ce0bd 2026-03-21)",
       "build_environment": "windows"
     },
     "host:create:all:": {
