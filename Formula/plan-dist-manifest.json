@@ -1,14 +1,14 @@
 {
   "dist_version": "0.31.0",
-  "announcement_tag": "v0.4.4",
+  "announcement_tag": "v0.4.5",
   "announcement_tag_is_implicit": false,
   "announcement_is_prerelease": false,
-  "announcement_title": "v0.4.4",
-  "announcement_github_body": "## Install moove 0.4.4\n\n### Install prebuilt binaries via Homebrew\n\n```sh\nbrew install urin/moove/moove\n```\n\n## Download moove 0.4.4\n\n|  File  | Platform | Checksum |\n|--------|----------|----------|\n| [moove-aarch64-apple-darwin.tar.gz](https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-apple-darwin.tar.gz) | Apple Silicon macOS | [checksum](https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-apple-darwin.tar.gz.sha256) |\n| [moove-x86_64-pc-windows-msvc.zip](https://github.com/urin/moove/releases/download/v0.4.4/moove-x86_64-pc-windows-msvc.zip) | x64 Windows | [checksum](https://github.com/urin/moove/releases/download/v0.4.4/moove-x86_64-pc-windows-msvc.zip.sha256) |\n| [moove-aarch64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-unknown-linux-musl.tar.gz) | ARM64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-unknown-linux-musl.tar.gz.sha256) |\n| [moove-x86_64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.4/moove-x86_64-unknown-linux-musl.tar.gz) | x64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.4/moove-x86_64-unknown-linux-musl.tar.gz.sha256) |\n\n",
+  "announcement_title": "v0.4.5",
+  "announcement_github_body": "## Install moove 0.4.5\n\n### Install prebuilt binaries via Homebrew\n\n```sh\nbrew install urin/moove/moove\n```\n\n## Download moove 0.4.5\n\n|  File  | Platform | Checksum |\n|--------|----------|----------|\n| [moove-aarch64-apple-darwin.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz) | Apple Silicon macOS | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz.sha256) |\n| [moove-x86_64-pc-windows-msvc.zip](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-pc-windows-msvc.zip) | x64 Windows | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-pc-windows-msvc.zip.sha256) |\n| [moove-aarch64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz) | ARM64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz.sha256) |\n| [moove-x86_64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz) | x64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz.sha256) |\n\n## Verifying GitHub Artifact Attestations\n\nThe artifacts in this release have attestations generated with GitHub Artifact Attestations. These can be verified by using the [GitHub CLI](https://cli.github.com/manual/gh_attestation_verify):\n```sh\ngh attestation verify <file-path of downloaded artifact> --repo urin/moove\n```\n\nYou can also download the attestation from [GitHub](https://github.com/urin/moove/attestations) and verify against that directly:\n```sh\ngh attestation verify <file-path of downloaded artifact> --bundle <file-path of downloaded attestation>\n```\n\n",
   "releases": [
     {
       "app_name": "moove",
-      "app_version": "0.4.4",
+      "app_version": "0.4.5",
       "env": {
         "install_dir_env_var": "MOOVE_INSTALL_DIR",
         "unmanaged_dir_env_var": "MOOVE_UNMANAGED_INSTALL",
@@ -24,8 +24,6 @@
       "display_name": "moove",
       "display": true,
       "artifacts": [
-        "source.tar.gz",
-        "source.tar.gz.sha256",
         "moove.rb",
         "sha256.sum",
         "moove-aarch64-apple-darwin.tar.gz",
@@ -40,7 +38,7 @@
       "hosting": {
         "github": {
           "artifact_base_url": "https://github.com",
-          "artifact_download_path": "/urin/moove/releases/download/v0.4.4",
+          "artifact_download_path": "/urin/moove/releases/download/v0.4.5",
           "owner": "urin",
           "repo": "moove"
         }
@@ -219,15 +217,6 @@
     "sha256.sum": {
       "name": "sha256.sum",
       "kind": "unified-checksum"
-    },
-    "source.tar.gz": {
-      "name": "source.tar.gz",
-      "kind": "source-tarball",
-      "checksum": "source.tar.gz.sha256"
-    },
-    "source.tar.gz.sha256": {
-      "name": "source.tar.gz.sha256",
-      "kind": "checksum"
     }
   },
   "systems": {
@@ -310,5 +299,11 @@
     }
   },
   "linkage": [],
-  "upload_files": []
+  "upload_files": [],
+  "github_attestations": true,
+  "github_attestations_filters": [
+    "*.zip",
+    "*.tar.gz"
+  ],
+  "github_attestations_phase": "host"
 }

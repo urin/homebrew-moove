@@ -1,21 +1,21 @@
 class Moove < Formula
   desc "🚚 Manipulate file names and locations"
   homepage "https://github.com/urin/moove"
-  version "0.4.4"
+  version "0.4.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-apple-darwin.tar.gz"
-      sha256 "25128f7c5c290fb6eea78e129d5b04f68be65661a6d29c4101506d2d7bbdc1ff"
+      url "https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz"
+      sha256 "91e6a8e2744df5058a8139ee66c5e0adcd88483a5e7d7c36f8f17f116dc3c9a9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/urin/moove/releases/download/v0.4.4/moove-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7bb8f8e931714d53f8d74532c076a0b4f15e9e5cc05f797877340dacf612e9fc"
+      url "https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ec092f0b25dbccaed5f4dd39015441d8c19a789bac9213eaf3b43eb3551a91c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/urin/moove/releases/download/v0.4.4/moove-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "06e5e18622056225df80834fd740515edae300553285138da045c866ebc41845"
+      url "https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8895defd447e5f84e36b1f42ff0fd4466ba6db2a730ff523917305a5fc02c362"
     end
   end
   license "MIT/Apache-2.0"
