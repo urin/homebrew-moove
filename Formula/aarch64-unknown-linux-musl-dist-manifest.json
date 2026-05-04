@@ -115,7 +115,7 @@
       ],
       "checksum": "moove-aarch64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "139e82b7f40c371c2aab0038a5ddffec53dff2eaed918fdd90b6718bbc75f9f4"
+        "sha256": "be15c2759221817cf718040cb6c158ceebac6e14745dd6f7136095e7e1e78afe"
       }
     },
     "moove-aarch64-unknown-linux-musl.tar.gz.sha256": {

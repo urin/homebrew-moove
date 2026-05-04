@@ -5,17 +5,17 @@ class Moove < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz"
-      sha256 "da2b0722ba2fa4dc875669863807a1439bf16ff7943169a4ddb9ffb45c7795eb"
+      sha256 "3a3a9f9345f423c5c5d103e157e3da24ea877a47cff47d48b66d40cddd5d52fc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "139e82b7f40c371c2aab0038a5ddffec53dff2eaed918fdd90b6718bbc75f9f4"
+      sha256 "be15c2759221817cf718040cb6c158ceebac6e14745dd6f7136095e7e1e78afe"
     end
     if Hardware::CPU.intel?
       url "https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "18c5a3a15ace01408f108fdbfe517f34d2736bfe9057cfea80416a09c2bb513e"
+      sha256 "209d363d66dbf5ffb5fb2c2703a5998994bac830af536c3e125c5ae9aa3f5642"
     end
   end
   license "MIT/Apache-2.0"

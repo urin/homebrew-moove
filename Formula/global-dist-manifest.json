@@ -77,7 +77,7 @@
       ],
       "checksum": "moove-aarch64-apple-darwin.tar.gz.sha256",
       "checksums": {
-        "sha256": "da2b0722ba2fa4dc875669863807a1439bf16ff7943169a4ddb9ffb45c7795eb"
+        "sha256": "3a3a9f9345f423c5c5d103e157e3da24ea877a47cff47d48b66d40cddd5d52fc"
       }
     },
     "moove-aarch64-apple-darwin.tar.gz.sha256": {
@@ -118,7 +118,7 @@
       ],
       "checksum": "moove-aarch64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "139e82b7f40c371c2aab0038a5ddffec53dff2eaed918fdd90b6718bbc75f9f4"
+        "sha256": "be15c2759221817cf718040cb6c158ceebac6e14745dd6f7136095e7e1e78afe"
       }
     },
     "moove-aarch64-unknown-linux-musl.tar.gz.sha256": {
@@ -159,7 +159,7 @@
       ],
       "checksum": "moove-x86_64-pc-windows-msvc.zip.sha256",
       "checksums": {
-        "sha256": "79b727628333490124122353681e595c2d740dec48f80e40cafd83cb5aa82636"
+        "sha256": "e3485da02dcf6c56105f9024e9d34a14c832c96ff7ef7e45744b5af61a2d3f4f"
       }
     },
     "moove-x86_64-pc-windows-msvc.zip.sha256": {
@@ -200,7 +200,7 @@
       ],
       "checksum": "moove-x86_64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "18c5a3a15ace01408f108fdbfe517f34d2736bfe9057cfea80416a09c2bb513e"
+        "sha256": "209d363d66dbf5ffb5fb2c2703a5998994bac830af536c3e125c5ae9aa3f5642"
       }
     },
     "moove-x86_64-unknown-linux-musl.tar.gz.sha256": {
