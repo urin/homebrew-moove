@@ -1,14 +1,14 @@
 {
   "dist_version": "0.31.0",
-  "announcement_tag": "v0.4.5",
+  "announcement_tag": "v0.4.6",
   "announcement_tag_is_implicit": false,
   "announcement_is_prerelease": false,
-  "announcement_title": "v0.4.5",
-  "announcement_github_body": "## Install moove 0.4.5\n\n### Install prebuilt binaries via Homebrew\n\n```sh\nbrew install urin/moove/moove\n```\n\n## Download moove 0.4.5\n\n|  File  | Platform | Checksum |\n|--------|----------|----------|\n| [moove-aarch64-apple-darwin.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz) | Apple Silicon macOS | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-apple-darwin.tar.gz.sha256) |\n| [moove-x86_64-pc-windows-msvc.zip](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-pc-windows-msvc.zip) | x64 Windows | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-pc-windows-msvc.zip.sha256) |\n| [moove-aarch64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz) | ARM64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-aarch64-unknown-linux-musl.tar.gz.sha256) |\n| [moove-x86_64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz) | x64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.5/moove-x86_64-unknown-linux-musl.tar.gz.sha256) |\n\n## Verifying GitHub Artifact Attestations\n\nThe artifacts in this release have attestations generated with GitHub Artifact Attestations. These can be verified by using the [GitHub CLI](https://cli.github.com/manual/gh_attestation_verify):\n```sh\ngh attestation verify <file-path of downloaded artifact> --repo urin/moove\n```\n\nYou can also download the attestation from [GitHub](https://github.com/urin/moove/attestations) and verify against that directly:\n```sh\ngh attestation verify <file-path of downloaded artifact> --bundle <file-path of downloaded attestation>\n```\n\n",
+  "announcement_title": "v0.4.6",
+  "announcement_github_body": "## Install moove 0.4.6\n\n### Install prebuilt binaries via Homebrew\n\n```sh\nbrew install urin/moove/moove\n```\n\n## Download moove 0.4.6\n\n|  File  | Platform | Checksum |\n|--------|----------|----------|\n| [moove-aarch64-apple-darwin.tar.gz](https://github.com/urin/moove/releases/download/v0.4.6/moove-aarch64-apple-darwin.tar.gz) | Apple Silicon macOS | [checksum](https://github.com/urin/moove/releases/download/v0.4.6/moove-aarch64-apple-darwin.tar.gz.sha256) |\n| [moove-x86_64-pc-windows-msvc.zip](https://github.com/urin/moove/releases/download/v0.4.6/moove-x86_64-pc-windows-msvc.zip) | x64 Windows | [checksum](https://github.com/urin/moove/releases/download/v0.4.6/moove-x86_64-pc-windows-msvc.zip.sha256) |\n| [moove-aarch64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.6/moove-aarch64-unknown-linux-musl.tar.gz) | ARM64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.6/moove-aarch64-unknown-linux-musl.tar.gz.sha256) |\n| [moove-x86_64-unknown-linux-musl.tar.gz](https://github.com/urin/moove/releases/download/v0.4.6/moove-x86_64-unknown-linux-musl.tar.gz) | x64 MUSL Linux | [checksum](https://github.com/urin/moove/releases/download/v0.4.6/moove-x86_64-unknown-linux-musl.tar.gz.sha256) |\n\n## Verifying GitHub Artifact Attestations\n\nThe artifacts in this release have attestations generated with GitHub Artifact Attestations. These can be verified by using the [GitHub CLI](https://cli.github.com/manual/gh_attestation_verify):\n```sh\ngh attestation verify <file-path of downloaded artifact> --repo urin/moove\n```\n\nYou can also download the attestation from [GitHub](https://github.com/urin/moove/attestations) and verify against that directly:\n```sh\ngh attestation verify <file-path of downloaded artifact> --bundle <file-path of downloaded attestation>\n```\n\n",
   "releases": [
     {
       "app_name": "moove",
-      "app_version": "0.4.5",
+      "app_version": "0.4.6",
       "env": {
         "install_dir_env_var": "MOOVE_INSTALL_DIR",
         "unmanaged_dir_env_var": "MOOVE_UNMANAGED_INSTALL",
@@ -38,7 +38,7 @@
       "hosting": {
         "github": {
           "artifact_base_url": "https://github.com",
-          "artifact_download_path": "/urin/moove/releases/download/v0.4.5",
+          "artifact_download_path": "/urin/moove/releases/download/v0.4.6",
           "owner": "urin",
           "repo": "moove"
         }
@@ -77,7 +77,7 @@
       ],
       "checksum": "moove-aarch64-apple-darwin.tar.gz.sha256",
       "checksums": {
-        "sha256": "3a3a9f9345f423c5c5d103e157e3da24ea877a47cff47d48b66d40cddd5d52fc"
+        "sha256": "65b10ab119583ecb1ec892270765acd999ff936322ec0e848a33eb36f0b9aa01"
       }
     },
     "moove-aarch64-apple-darwin.tar.gz.sha256": {
@@ -118,7 +118,7 @@
       ],
       "checksum": "moove-aarch64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "be15c2759221817cf718040cb6c158ceebac6e14745dd6f7136095e7e1e78afe"
+        "sha256": "f02a80410250e8bef3c7223146691ee682565c063c7930feed80325bcbd25db6"
       }
     },
     "moove-aarch64-unknown-linux-musl.tar.gz.sha256": {
@@ -159,7 +159,7 @@
       ],
       "checksum": "moove-x86_64-pc-windows-msvc.zip.sha256",
       "checksums": {
-        "sha256": "e3485da02dcf6c56105f9024e9d34a14c832c96ff7ef7e45744b5af61a2d3f4f"
+        "sha256": "b0630590fc36b02d7eac6a3fd329e30b79af30861f130446c5d00fbd01831a4c"
       }
     },
     "moove-x86_64-pc-windows-msvc.zip.sha256": {
@@ -200,7 +200,7 @@
       ],
       "checksum": "moove-x86_64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "209d363d66dbf5ffb5fb2c2703a5998994bac830af536c3e125c5ae9aa3f5642"
+        "sha256": "df71ec4aca19267db783266c1281c170e8a020484f1f85b42016c1677081f20c"
       }
     },
     "moove-x86_64-unknown-linux-musl.tar.gz.sha256": {
@@ -267,7 +267,7 @@
     },
     "build:local:x86_64-pc-windows-msvc": {
       "id": "build:local:x86_64-pc-windows-msvc",
-      "cargo_version_line": "cargo 1.94.1 (29ea6fb6a 2026-03-24)",
+      "cargo_version_line": "cargo 1.95.0 (f2d3ce0bd 2026-03-21)",
       "build_environment": "windows"
     },
     "build:local:x86_64-unknown-linux-musl": {
