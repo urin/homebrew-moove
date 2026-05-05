@@ -191,7 +191,7 @@
       ],
       "checksum": "moove-x86_64-unknown-linux-musl.tar.gz.sha256",
       "checksums": {
-        "sha256": "bf022243e9afdd4d4b7cccd5e896bdc59ea8255249b88eceff19526a4cc02fda"
+        "sha256": "b1431f04b080a22dca84ae5f3cc0c02bf4ce93fb9eb491fe54a53ec56f718a8e"
       }
     },
     "moove-x86_64-unknown-linux-musl.tar.gz.sha256": {
